@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1166,
+            "driver": "Redshift Driver (Dedicated ver)",
+            "name": "analytics",
+            "database": "analytics",
+            "username": "pmarangoni",
+            "password": "!nLPoKWpJ5osr7zdwzPiLu3dxGjCko6j"
+        },
+        {
+            "previewLimit": 50,
+            "server": "curso-dbt.ct6uwqiacd9r.us-east-1.rds.amazonaws.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Dbt-estudos",
+            "database": "bancodbt",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ]
+}
